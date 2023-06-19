@@ -1,7 +1,7 @@
-export const apiUrl =
-	process.env.NODE_ENV !== 'production'
-		? 'http://localhost:5000/api'
-		: 'https://sleepy-inlet-56101.herokuapp.com/api'
+export const apiUrl = 'https://learn-server-psi.vercel.app//api'
+	// process.env.NODE_ENV === 'production'
+	// 	? 'learn-server-q0sgqe6dt-huynhnhan99.vercel.app/api'
+	// 	: 'http://localhost:5000/api' 
 
 export const LOCAL_STORAGE_TOKEN_NAME = 'learnit-mern'
 
