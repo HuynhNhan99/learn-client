@@ -1,4 +1,4 @@
-export const apiUrl = 'https://learn-server-psi.vercel.app//api'
+export const apiUrl = 'https://learn-server-psi.vercel.app/api'
 	// process.env.NODE_ENV === 'production'
 	// 	? 'learn-server-q0sgqe6dt-huynhnhan99.vercel.app/api'
 	// 	: 'http://localhost:5000/api' 
