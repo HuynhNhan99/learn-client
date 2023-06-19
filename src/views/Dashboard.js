@@ -31,6 +31,7 @@ const Dashboard = () => {
 	} = useContext(PostContext)
 
 	// Start: Get all posts
+	// eslint-disable-next-line react-hooks/exhaustive-deps
 	useEffect(() => getPosts(), [])
 
 	let body = null
