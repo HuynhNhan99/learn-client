@@ -1,7 +1,4 @@
-export const apiUrl = 'https://learn-server-psi.vercel.app/api'
-	// process.env.NODE_ENV === 'production'
-	// 	? 'learn-server-q0sgqe6dt-huynhnhan99.vercel.app/api'
-	// 	: 'http://localhost:5000/api' 
+export const apiUrl = process.env.API_URL ||  'https://learn-server-orcin.vercel.app/api'
 
 export const LOCAL_STORAGE_TOKEN_NAME = 'learnit-mern'
 
